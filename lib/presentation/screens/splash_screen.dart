@@ -25,14 +25,15 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
+    final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: Lottie.asset(
-          'assets/lottie/Animation.json',
-          width: 200,
-          height: 200,
-          fit: BoxFit.contain,
+        child: SizedBox(
+          height: screenHeight * 0.8,
+          width: screenWidth * 0.8,
+          child: Lottie.asset('assets/lottie/Animation.json'),
         ),
       ),
     );

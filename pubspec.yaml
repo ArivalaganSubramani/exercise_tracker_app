@@ -39,6 +39,8 @@ dependencies:
   shared_preferences:
   stop_watch_timer:
   lottie:
+  shimmer:
+  flutter_staggered_animations:
 
 
 dev_dependencies:

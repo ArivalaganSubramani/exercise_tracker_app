@@ -116,6 +116,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "flutter_staggered_animations",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dev/flutter_staggered_animations-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/apple/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -308,6 +314,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "shimmer",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dev/shimmer-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/apple/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -404,7 +416,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-06-03T03:03:07.347290Z",
+  "generated": "2025-06-03T06:55:52.374155Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/apple/development/flutter",
